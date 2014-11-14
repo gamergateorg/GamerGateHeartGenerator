@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weheart - Make an Avatar</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+     <link rel="stylesheet" href="css/app.css" />
+      <link rel="icon" type="image/png" href="img/favicon.ico">
+      <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+    <!-- Either include the full CamanJS code including plugins -->
+    <script type='text/javascript' src='js/filereader.js'></script>
+    <script type="text/javascript" src="js/caman.full.js"></script>
+    <script type="text/javascript" src="js/dropzone.js"></script>
+
+  </head>
+  <body>
+  <div class="row">
+      <div class="large-2 large-offset-2 columns">
+          <a href="http://weheart.github.io"><img src="img/logo.png" class="logo"/></a>
+      </div>
+      <div class="large-8 columns">
+          <div>
+          <h1 id="title">Games are for <a href="http://weheart.github.io">Everyone</a> </h1>
+          <h6 id="subtitle">&mdash; make an avatar. </h6>
+              </div>
+      </div>
+  </div>
+    <div class="row">
+      <div class="large-12 columns">
+
+          <div id="user-images"></div>
+          <div id="loading">Loading...</div>
+      </div>
+        <div class="large-12 columns">
+        <div class="inputbutton">
+        <label class="fileupload" for="file-input">Click here or drag a file to upload. </label>
+        <input type="file" id="file-input" name="file-input" accept="image/*" size="60">
+        </div>
+            </div>
+    </div>
+
+  <div class="credits">
+      This avatar generator by <a href="http://twitter.com/kleptine">John Oliver Rogers</a> <br/>
+      This project was initiated by <a href="https://twitter.com/andreaszecher">Andreas Zecher</a>.
+  </div>
+
+    <div id="hiddenel"></div>
+
+    
+        
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
