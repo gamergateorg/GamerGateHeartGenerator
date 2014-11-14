@@ -120,6 +120,9 @@ FileReaderJS.setupClipboard(document.body, options);
      networks: {
          pinterest: {
              enabled: false
+         },
+         email: {
+             enabled: false
          }
      }
  });
