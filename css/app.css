@@ -1,16 +1,28 @@
 h1 {
     font-family: "Source Sans Pro", sans-serif !important; /*noshame. foundation is a pain*/
-
+    font-size: 33.2pt !important; /*#noshame*/
     font-weight: 300 !important;
-
 }
 
-h1 {
-
+html, body {
+    height: 100%;
+}
+#wrapper {
+    min-height: 100%;
+    height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+#footer, .push {
+    height: 155px; /* .push must be the same height as .footer */
+    font-size: 11pt !important; /*#noshame*/
 }
 
 #subtitle {
     font-size: 14pt !important; /*#noshame*/
+    font-family: "Source Sans Pro", sans-serif !important; /*noshame. foundation is a pain*/
+
+    font-weight: 300 !important;
 }
 
 .logo {
@@ -38,8 +50,7 @@ a:hover {
 
 .credits {
     width: 100%;
-    position: absolute;
-    bottom: 0;
+
     color: #CCC;
     text-align: center;
     margin-bottom: 2rem;
@@ -67,6 +78,7 @@ input[type="file"] {
     cursor: pointer;
 
     margin: 20%;
+    margin-bottom: 5rem;
     display: block;
     text-align: center;
 
