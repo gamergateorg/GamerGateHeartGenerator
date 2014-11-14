@@ -18,6 +18,22 @@ html, body {
     font-size: 11pt !important; /*#noshame*/
 }
 
+#share-buttons {
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.entypo-export {
+    background-color: rgba(255, 202, 202, 0.32) !important;
+    color: rgba(244, 93, 98, 0.46) !important;
+
+    border-radius: 0 !important;
+}
+
+.entypo-export span {
+    font-family: sans-serif !important;
+}
+
 #subtitle {
     font-size: 14pt !important; /*#noshame*/
     font-family: "Source Sans Pro", sans-serif !important; /*noshame. foundation is a pain*/

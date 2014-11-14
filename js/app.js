@@ -105,3 +105,21 @@ FileReaderJS.setupClipboard(document.body, options);
      $("#user-images").show();
      $("#loading").hide();
  }
+ new Share(".share-button", {
+     networks: {
+         facebook: {
+             app_id: "abc123"
+         }
+     }
+ });
+
+ new Share("#share-buttons", {
+     title: "Games are for everyone.",
+     description: "We think games are for everyone. Change your avatar if you think so too.",
+     image: "http://weheart.github.io/site/images/logo.png",
+     networks: {
+         pinterest: {
+             enabled: false
+         }
+     }
+ });
